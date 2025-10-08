@@ -81,7 +81,7 @@ def select_with_custom(label, options):
     return pick
 
 # ===== UI =====
-st.title("雲林 A1/A2 嚴重度預測（完整欄位輸入）")
+st.title("雲林 A1/A2 車禍嚴重度預測（完整欄位輸入）")
 
 with st.sidebar:
     st.header("基本（數值/座標/時間）")
