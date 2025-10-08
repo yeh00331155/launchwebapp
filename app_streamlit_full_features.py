@@ -18,7 +18,7 @@ import joblib, json, os
 from datetime import datetime, date, time
 from catboost import CatBoostClassifier, Pool
 
-st.set_page_config(page_title="雲林 A1/A2 嚴重度預測（完整欄位）", layout="wide")
+st.set_page_config(page_title="雲林 A1/A2 車禍嚴重度預測（完整欄位）", layout="wide")
 
 EXCEL_PATH = "113雲林0924.xlsx"
 SHEET_NAME = "Yulin"
